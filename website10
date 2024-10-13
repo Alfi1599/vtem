@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #333;
+        }
+        .blog-post {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explore.Learn.Grow</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#fit_alfi">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-post">
+            <h3>Blog Post 1</h3>
+            <p>This is the content of the first blog post. Add text, images, or videos here.</p>
+        </div>
+        <div class="https://yt3.ggpht.com/LGY0fh_mUdbeRhvlmMfda9sqIi06nRa5UoLP6O10JPL7djOPcHzWHUI6jTCd5Z_gLo75qG_afgH4CA=s1080-c-fcrop64=1,00000000ffffffff-rw-nd-v1">
+            <h3>Blog Post 2</h3>
+            <p>This is the content of the second blog post. Share more updates here.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 alfifit Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
